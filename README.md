@@ -1,5 +1,6 @@
 # oakenshield
 ![](./dist/logo.jpg)
+
 Oakenshield is an id generation service based on an algorithm similar to the snowflake, developed to generate unique ids in distributed systems.
 
 We use 16 bit of randomness and a shuffled bit sequence generating hash like ID sequences. We support 256 different machines. We use 63 bit to ensure positive values for an int64 datatype.
